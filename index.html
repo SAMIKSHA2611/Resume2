@@ -10,6 +10,7 @@
             display: flex;
             background-color: pink;
             padding: 10px;
+            margin-bottom: 10px;
             
         }
         .profile h1{
@@ -24,31 +25,33 @@
         }
         #education{
             padding-top: 12px;
-            padding-bottom: 12px;
+            padding-bottom: 20px;
             text-align: left;
             
         }
         #education th{
             padding-top: 20px;
             padding-right: 15px;
-        }
-        .studies{
-            margin-top: 13px;
-            margin-bottom: 0%;
-        }
-        .studies tr{
             
-            background: pink;
         }
-        .studies h3{
-            margin: 0%;
-        }
-        .studies td{
-            padding: 3px;
-        }
+    
         hr{
             border: 1px solid pink;
+            margin-top: 0%;
         }
+        .label{
+            color: black;
+            
+            
+         }
+         .experience {
+            background-color: pink;
+            margin-bottom: 0%;
+            padding: 2px;
+            
+            
+            
+         }
     </style>
 </head>
 <body>
@@ -69,23 +72,17 @@
         <div>
             <!--work experience-->
             <div>
-                <table class="studies">
-                <tr> 
-                    <td> <h3> WORK EXPERIENCE</h3></td>
-                </tr>
                 
-                </table>
+                <span class="label experience"> <b>WORK EXPERIENCE</b></span>
+                
                 <hr>
-                fresher
+               <h4>fresher</h4> 
             </div>    
                 
             <!--education-->
             <div>
-                <table class="studies">
-                    <tr>
-                        <td><h3>EDUCATION</h3></td>
-                    </tr>
-                </table>
+                <span class="label experience"> <b>EDUCATION</b></span>
+                
                 <hr>
 
                 <table id="education">
@@ -118,11 +115,7 @@
 
             <!--communication-->
             <div>
-                <table class="studies">
-                    <tr>
-                        <td><h3> COMMUNICATION </h3></td>
-                    </tr>
-                </table>
+                <span class="label experience"> <b>COMMUNICATION</b></span>
                 <hr>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum laboriosam error ratione nemo officia porro tempore expedita repellat provident, quae culpa non nesciunt officiis architecto quasi corrupti minima consectetur.</p>
             </div>
